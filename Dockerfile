@@ -1,4 +1,4 @@
-FROM maven:3.9.3-amazoncorretto-17
+FROM docker.io/maven:3.9.11-amazoncorretto-24-al2023
 WORKDIR /app
 COPY src /app/src
 COPY pom.xml /app
